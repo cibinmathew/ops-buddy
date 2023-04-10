@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Ops Buddy",
+  "description": "Identify Jenkins environments to avoid mishaps",
+  "version": "1.0.0",
+  "author": "Cibin Mathew",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options/options.html",
+  "background": {
+    "service_worker": "background/index.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content_scripts/index.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "Open ops-buddy popup"
+  }
+}
