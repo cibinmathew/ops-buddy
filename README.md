@@ -1,4 +1,4 @@
-# ops-buddy Chrome Extension
+# server-colours Chrome Extension
 A Chrome Extension to visually differentiate between `QA` and `Prod` jenkins servers based on url pattern.
 
 ## Extension in action
