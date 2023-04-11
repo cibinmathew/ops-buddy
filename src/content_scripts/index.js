@@ -1,4 +1,4 @@
-const CHROME_SYNC_STORAGE_KEY = "server-colours-4633f243";
+const CHROME_SYNC_STORAGE_KEY = "devOps-colours-4633f243";
 
 const componentKey = { qa_sites: "", prod_sites: "" };
 const array = ["qa", "prod"]; // priority is more prod
@@ -19,7 +19,7 @@ function changeBackground(result) {
       // TODO strip '/' http://localhost:8089/
       if (window.location.origin.match("^" + arr[i] + "$")) {
         console.log(
-          "INFO:server-colours: matched env: " +
+          "INFO:devOps-colours: matched env: " +
             env +
             " pattern: " +
             arr[i] +

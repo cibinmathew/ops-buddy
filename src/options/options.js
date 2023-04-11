@@ -1,4 +1,4 @@
-const CHROME_SYNC_STORAGE_KEY = "server-colours-4633f243"; // unique key name to use storage
+const CHROME_SYNC_STORAGE_KEY = "devOps-colours-4633f243"; // unique key name to use storage
 
 // Saves options to chrome.storage
 const saveOptions = () => {
@@ -32,7 +32,7 @@ const restoreOptions = () => {
         items[CHROME_SYNC_STORAGE_KEY]["qa_sites"];
     }
   );
-  console.info("server-colours Options loaded");
+  console.info("devOps-colours Options loaded");
 };
 
 document.addEventListener("DOMContentLoaded", restoreOptions);

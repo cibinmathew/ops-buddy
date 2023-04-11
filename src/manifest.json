@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Server colours",
+  "name": "DevOps Colours",
   "description": "Differentiate between QA and Prod servers",
   "version": "1.0.0",
   "author": "Cibin Mathew",
@@ -25,6 +25,6 @@
     }
   ],
   "action": {
-    "default_title": "Open server-colours popup"
+    "default_title": "Open devOps-colours popup"
   }
 }
