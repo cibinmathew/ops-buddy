@@ -13,7 +13,7 @@ Supported DevOps server technologies:
 
 
 ## Installation
-[Install](https://chrome.google.com/webstore/category/extensions?hl=en) from chrome webstore
+[Install](https://chrome.google.com/webstore/detail/devops-colours/jdfcifmjkfkjjaihgmodbmjhdbkcipfl) from chrome webstore
 
 ## Configuration
 
