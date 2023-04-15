@@ -1,5 +1,5 @@
 # devOps Colours Chrome Extension
-A Chrome Extension to visually differentiate between `QA` and `Prod` based on url pattern. Top banner will be automatically changed to Red and Green for prod and QA servers respectively. 
+A Chrome Extension to visually differentiate between `QA` and `Prod` based on url pattern. Top banner will be automatically changed to `Red` and `Green` for prod and QA servers respectively. 
 
 Supported DevOps server technologies:
 - [Jenkins](https://www.jenkins.io/) 
