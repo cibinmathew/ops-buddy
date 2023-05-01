@@ -15,7 +15,7 @@ function changeBackground(result) {
     arr = result[env + "_sites"].split("\r\n|\n|\r").filter((e) => e);
 
     for (var i = 0; i < arr.length; i++) {
-      console.log(i, window.location.origing);
+      console.log(i, window.location.origin);
       // TODO strip '/' http://localhost:8089/
       if (window.location.origin.match("^" + arr[i] + "$")) {
         console.log(
