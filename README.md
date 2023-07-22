@@ -8,8 +8,13 @@ Supported DevOps server technologies:
 - [AWS](https://aws.amazon.com/) - TODO
 
 ## Extension in action
+`PROD`
 
 ![](./docs/screenshot-prod.png)
+
+-----
+
+`QA`
 
 ![](./docs/screenshot-qa.png)
 
